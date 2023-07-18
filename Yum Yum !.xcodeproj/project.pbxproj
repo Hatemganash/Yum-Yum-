@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8929021F2A66E52400EB8333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8929021E2A66E52400EB8333 /* AppDelegate.swift */; };
+		892902212A66E52400EB8333 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892902202A66E52400EB8333 /* SceneDelegate.swift */; };
+		892902262A66E52400EB8333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892902242A66E52400EB8333 /* Main.storyboard */; };
+		892902292A66E52400EB8333 /* Yum_Yum__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 892902272A66E52400EB8333 /* Yum_Yum__.xcdatamodeld */; };
+		8929022B2A66E52600EB8333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8929022A2A66E52600EB8333 /* Assets.xcassets */; };
+		8929022E2A66E52600EB8333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8929022C2A66E52600EB8333 /* LaunchScreen.storyboard */; };
+		8929023A2A66EAFB00EB8333 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892902392A66EAFB00EB8333 /* OnBoardingViewController.swift */; };
+		8929023D2A66ED6800EB8333 /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8929023C2A66ED6800EB8333 /* UIView+Extention.swift */; };
+		8929023F2A66EE8000EB8333 /* OnBoardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8929023E2A66EE8000EB8333 /* OnBoardingSlide.swift */; };
+		892902412A66F09A00EB8333 /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892902402A66F09A00EB8333 /* OnBoardingCollectionViewCell.swift */; };
+		898A85852A671A2A001C8D5C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898A85842A671A2A001C8D5C /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8929021B2A66E52400EB8333 /* Yum Yum !.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yum Yum !.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8929021E2A66E52400EB8333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		892902202A66E52400EB8333 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		892902252A66E52400EB8333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		892902282A66E52400EB8333 /* Yum_Yum__.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yum_Yum__.xcdatamodel; sourceTree = "<group>"; };
+		8929022A2A66E52600EB8333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8929022D2A66E52600EB8333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8929022F2A66E52600EB8333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892902392A66EAFB00EB8333 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		8929023C2A66ED6800EB8333 /* UIView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
+		8929023E2A66EE8000EB8333 /* OnBoardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingSlide.swift; sourceTree = "<group>"; };
+		892902402A66F09A00EB8333 /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		898A85842A671A2A001C8D5C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		892902182A66E52400EB8333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		892902122A66E52400EB8333 = {
+			isa = PBXGroup;
+			children = (
+				8929021D2A66E52400EB8333 /* Yum Yum ! */,
+				8929021C2A66E52400EB8333 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8929021C2A66E52400EB8333 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8929021B2A66E52400EB8333 /* Yum Yum !.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8929021D2A66E52400EB8333 /* Yum Yum ! */ = {
+			isa = PBXGroup;
+			children = (
+				8929023B2A66ED3100EB8333 /* Extentions */,
+				892902372A66EAC000EB8333 /* CustomViews */,
+				892902362A66EAB300EB8333 /* Views */,
+				892902352A66EAA900EB8333 /* Models */,
+				8929021E2A66E52400EB8333 /* AppDelegate.swift */,
+				892902202A66E52400EB8333 /* SceneDelegate.swift */,
+				892902242A66E52400EB8333 /* Main.storyboard */,
+				8929022A2A66E52600EB8333 /* Assets.xcassets */,
+				8929022C2A66E52600EB8333 /* LaunchScreen.storyboard */,
+				8929022F2A66E52600EB8333 /* Info.plist */,
+				892902272A66E52400EB8333 /* Yum_Yum__.xcdatamodeld */,
+			);
+			path = "Yum Yum !";
+			sourceTree = "<group>";
+		};
+		892902352A66EAA900EB8333 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8929023E2A66EE8000EB8333 /* OnBoardingSlide.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		892902362A66EAB300EB8333 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				898A85832A671A11001C8D5C /* Home */,
+				892902382A66EAD200EB8333 /* OnBoarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		892902372A66EAC000EB8333 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		892902382A66EAD200EB8333 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				892902392A66EAFB00EB8333 /* OnBoardingViewController.swift */,
+				892902402A66F09A00EB8333 /* OnBoardingCollectionViewCell.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		8929023B2A66ED3100EB8333 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				8929023C2A66ED6800EB8333 /* UIView+Extention.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		898A85832A671A11001C8D5C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				898A85842A671A2A001C8D5C /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8929021A2A66E52400EB8333 /* Yum Yum ! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 892902322A66E52600EB8333 /* Build configuration list for PBXNativeTarget "Yum Yum !" */;
+			buildPhases = (
+				892902172A66E52400EB8333 /* Sources */,
+				892902182A66E52400EB8333 /* Frameworks */,
+				892902192A66E52400EB8333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yum Yum !";
+			productName = "Yum Yum !";
+			productReference = 8929021B2A66E52400EB8333 /* Yum Yum !.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		892902132A66E52400EB8333 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8929021A2A66E52400EB8333 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 892902162A66E52400EB8333 /* Build configuration list for PBXProject "Yum Yum !" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 892902122A66E52400EB8333;
+			productRefGroup = 8929021C2A66E52400EB8333 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8929021A2A66E52400EB8333 /* Yum Yum ! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		892902192A66E52400EB8333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8929022E2A66E52600EB8333 /* LaunchScreen.storyboard in Resources */,
+				8929022B2A66E52600EB8333 /* Assets.xcassets in Resources */,
+				892902262A66E52400EB8333 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		892902172A66E52400EB8333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892902412A66F09A00EB8333 /* OnBoardingCollectionViewCell.swift in Sources */,
+				892902292A66E52400EB8333 /* Yum_Yum__.xcdatamodeld in Sources */,
+				8929021F2A66E52400EB8333 /* AppDelegate.swift in Sources */,
+				898A85852A671A2A001C8D5C /* HomeViewController.swift in Sources */,
+				8929023D2A66ED6800EB8333 /* UIView+Extention.swift in Sources */,
+				892902212A66E52400EB8333 /* SceneDelegate.swift in Sources */,
+				8929023F2A66EE8000EB8333 /* OnBoardingSlide.swift in Sources */,
+				8929023A2A66EAFB00EB8333 /* OnBoardingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		892902242A66E52400EB8333 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				892902252A66E52400EB8333 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8929022C2A66E52600EB8333 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8929022D2A66E52600EB8333 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		892902302A66E52600EB8333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		892902312A66E52600EB8333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		892902332A66E52600EB8333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yum Yum !/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hatem.Yum-Yum--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		892902342A66E52600EB8333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yum Yum !/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hatem.Yum-Yum--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		892902162A66E52400EB8333 /* Build configuration list for PBXProject "Yum Yum !" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892902302A66E52600EB8333 /* Debug */,
+				892902312A66E52600EB8333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		892902322A66E52600EB8333 /* Build configuration list for PBXNativeTarget "Yum Yum !" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892902332A66E52600EB8333 /* Debug */,
+				892902342A66E52600EB8333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		892902272A66E52400EB8333 /* Yum_Yum__.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				892902282A66E52400EB8333 /* Yum_Yum__.xcdatamodel */,
+			);
+			currentVersion = 892902282A66E52400EB8333 /* Yum_Yum__.xcdatamodel */;
+			path = Yum_Yum__.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 892902132A66E52400EB8333 /* Project object */;
+}
