@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCollectionViewCell" id="gTV-IL-0wX" customClass="CategoryCollectionViewCell" customModule="Yum_Yum__" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="56"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="56"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h3p-vb-A1H" customClass="cardView" customModule="Yum_Yum__" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="56"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4Zx-SX-JKV">
+                                <rect key="frame" x="8" y="8" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="k7m-dI-1t1"/>
+                                    <constraint firstAttribute="height" constant="40" id="zHc-7G-Eh9"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZe-Iz-90E">
+                                <rect key="frame" x="56" y="20.333333333333332" width="86" height="15.666666666666668"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="4Zx-SX-JKV" secondAttribute="bottom" constant="8" id="4uM-DD-krA"/>
+                            <constraint firstItem="vZe-Iz-90E" firstAttribute="leading" secondItem="4Zx-SX-JKV" secondAttribute="trailing" constant="8" id="8D4-rw-9cv"/>
+                            <constraint firstItem="4Zx-SX-JKV" firstAttribute="leading" secondItem="h3p-vb-A1H" secondAttribute="leading" constant="8" id="V2M-cM-K9B"/>
+                            <constraint firstItem="4Zx-SX-JKV" firstAttribute="top" secondItem="h3p-vb-A1H" secondAttribute="top" constant="8" id="V7U-XC-UNJ"/>
+                            <constraint firstItem="vZe-Iz-90E" firstAttribute="centerY" secondItem="4Zx-SX-JKV" secondAttribute="centerY" id="eXr-Bs-pb5"/>
+                            <constraint firstAttribute="trailing" secondItem="vZe-Iz-90E" secondAttribute="trailing" constant="8" id="mP4-UD-icP"/>
+                            <constraint firstAttribute="height" constant="56" id="uIo-yH-MP1"/>
+                            <constraint firstAttribute="width" constant="150" id="zuS-Vc-ibF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="h3p-vb-A1H" secondAttribute="trailing" id="J90-lq-Wrm"/>
+                <constraint firstItem="h3p-vb-A1H" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="W6W-r2-uOc"/>
+                <constraint firstItem="h3p-vb-A1H" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="fF4-ay-0EE"/>
+                <constraint firstAttribute="bottom" secondItem="h3p-vb-A1H" secondAttribute="bottom" id="qzm-Pg-Hhn"/>
+            </constraints>
+            <size key="customSize" width="150" height="56"/>
+            <connections>
+                <outlet property="categoryImageView" destination="4Zx-SX-JKV" id="57f-pe-Y2r"/>
+                <outlet property="categoryTitleLbl" destination="vZe-Iz-90E" id="A2E-Iy-qbR"/>
+            </connections>
+            <point key="canvasLocation" x="58.015267175572518" y="-8.4507042253521139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
