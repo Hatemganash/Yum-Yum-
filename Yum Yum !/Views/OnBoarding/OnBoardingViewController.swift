@@ -27,6 +27,7 @@ class OnBoardingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+     
         collectionView.delegate = self
         collectionView.dataSource = self
        

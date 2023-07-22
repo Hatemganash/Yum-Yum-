@@ -7,5 +7,6 @@ target 'Yum Yum !' do
 
   # Pods for Yum Yum !
 pod "Kingfisher"
+pod "ProgressHUD"
 
 end
