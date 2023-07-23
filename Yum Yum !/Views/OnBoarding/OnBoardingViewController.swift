@@ -47,7 +47,7 @@ class OnBoardingViewController: UIViewController {
             let controller = storyboard?.instantiateViewController(withIdentifier: "HomeVC") as! UINavigationController
             controller.modalPresentationStyle = .fullScreen
             controller.modalTransitionStyle = .flipHorizontal
-            
+            UserDefaults.standard.hasOnborded = true
             present(controller, animated: true)
             
         }else {
